@@ -18,7 +18,7 @@
 .banner {
     padding: 5px 3%;
     background-color: #35b8be;
-    background-image: url("../images/header-image.svg");
+    background-image: url("./images/header-image.svg");
     background-repeat: no-repeat;
     min-height: 48px;
     display: flex;
@@ -38,8 +38,6 @@
     color: white;
     text-decoration: none;
 }
-
-                
                             /* Navigation part*/
 .navbar-content {
     padding: 20px 3%;
@@ -157,6 +155,9 @@
     gap: 80px;
     background-image: url(./images/background.svg);
 }
+.small-child {
+    margin-top: 100px;
+}
 .heading-top {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -165,7 +166,7 @@
     line-height: 1;
     font-weight: 700;
     letter-spacing: -0.03em;
-    text-align: center;
+    /* text-align: center; */
 }
 .paragraph-text {
     margin-bottom: 100px;
@@ -173,8 +174,33 @@
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: -0.02em;
+    /* text-align: center; */
+    margin-top: 20px;
+    
+    
+}
+.clik-button {
+    margin-top: -20px;
+    min-height: 60px;
+    padding: 20px 35px;
+    border-radius: 6px;
+    background-color: #35b8be;
+    margin-top: -40px;
+    border: #fff;
+}
+.clik-button a {
+    text-decoration: none;
+    color: #fff;
+}
+.heading-works {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #35b8be;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
 }
 .nav-header {
     text-align: center;
