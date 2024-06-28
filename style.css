@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/inter.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'inter';
+  box-sizing: border-box;  
+  font-family: Inter, sans-serif;
+  color: #333;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+                    /* banner section */
+
+.banner {
+    padding: 5px 3%;
+    background-color: #35b8be;
+    background-image: url("../images/header-image.svg");
+    background-repeat: no-repeat;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.link-text {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+                /* navbar section */
+
+.navbar-content {
+    padding: 20px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-right a {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-header a button {
+    padding: 13px;
+    height: 55px;
+    width: 55px;
+    background-color: #35b8be;
+    background-image: url("../images/header-image.svg");
+    border: none;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+}
+
+.btn-content {
+    position: relative;
+}
+
+.btn-count {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    box-shadow: 7px 7px 25px 0 rgba(126, 130, 143, 0.27);
+    background-color: white;
+    color: #35b8be;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+}
+.main-content {
+    padding: 3% 150px;
+    display: flex;
+    gap: 80px;
+    background-image: url(./images/backgroun\ 2.svg);
+}
+.heading-part{
+    max-width: 580px;
+    margin-bottom: 20px;
+    color: #08090a;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-weight: 700px;
+    margin: .67em 0;
+    font-family: sans-serif;
+}
+.span {
+    color: #35b8be;
+    font-size: 60px;
+}
+.text-part {
+    color: #546285;
+    font-size: 18px;
+    line-height: 1.34;
+    font-weight: 400;
+}
+.button {
+    min-height: 60px;
+    padding: 20px 35px;
+    border-radius: 6px;
+    background-color: #35b8be;
+    margin-top: 10px;
+    border: #fff;
+}    
+.button a{
+    text-decoration: none;
+    color: whitesmoke;
+}    
+
+.brand-text{
+    color: #08090a;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.span-colur {
+    color: #35b8be;
+}
+
+
+.pic {
+    /* margin-right: 16px;
+    margin-bottom: 10px; */
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+    margin-top: 30px;
+}
+.main-section {
+    display: flex;
+    /* position: relative; */
+    padding: 170px 10%;
+    background-color: transparent;
+    background-image: url(https://assets.website-files.com/5e865e0…/5e865e0…_BG%20Shape%20Content.svg);
+    background-position: 50% 50%;
+    background-size: 96% 90%;
+    background-repeat: no-repeat;
+    gap: 80px;
+    background-image: url(./images/background.svg);
+}
+.heading-top {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #35b8be;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+.paragraph-text {
+    margin-bottom: 100px;
+    color: #546285;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 30px;
+}
+.nav-header {
+    text-align: center;
+    font-size: 55px;
+    color: #35b8be;
+    margin-top: 100px;
+}
+.printing-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.texting-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-image: url(	'https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa308a576b613_YumYum.png');
+}
+.heading-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #08090a;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+.lorem-section {
+    margin-bottom: 10px;
+    color: #546285;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+.nav-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #35b8be;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+.nav-lorem{
+    margin-bottom: 10px;
+    color: #546285;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+.tags {
+    color: #35b8be;
+    font-size: 18px;
+}
+.Company {
+    position: relative;
+    padding: 120px 3%;
+    background-color: transparent;
+    
+}
+.button-part{
+    text-align: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.type-button {
+    border-color: rgba(97, 114, 131, 0);
+    border-radius: 6px;
+    background-color: #35b8be;
+    color: #fff;
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    
+}
+.burger {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+}
+.input {
+    width: 60px;
+    height: 45px;
+    margin-right: 8px;
+    margin-bottom: 0px;
+    border-radius: 6px;
+}
+.submit {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #35b8be;
+    color: #fff;
+    border: #fff;
+}
+.button-part {
+    margin-bottom: 40px;
+    margin-top: -50px;
+    gap: 20px;
+}
+.button-part button a {
+    text-decoration: none;
+}
+.shortcut {
+    display: flex;
+    margin-left: 100px;
+    border: 1px solid;
+    width: 650px;
+    height: 210px;
+    border-radius: 7px;
+    background-color: #fff;
+    border: #fff;
+    margin-bottom: 50px;   
+}
+.dremes-section {
+    margin-top: 26px;
+    margin-left: 20px;
+}
+.border-section {
+    
+}
+.imges-part {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.heading-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #08090a;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+.writing-part {
+    margin-bottom: 10px;
+    color: #546285;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+.number-section p{
+    color: #35b8be;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-left: -100px;
+}
+#parent-section {
+    display: flex;
+    background-color: ;
+}
+#background-section {
+    background-image: url(./images/background.svg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .last-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #35b8be;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+     */
