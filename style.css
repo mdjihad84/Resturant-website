@@ -139,8 +139,6 @@
 
 
 .pic {
-    /* margin-right: 16px;
-    margin-bottom: 10px; */
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
@@ -232,6 +230,7 @@
 .tags {
     color: #35b8be;
     font-size: 18px;
+    text-decoration: none;
 }
 .Company {
     position: relative;
@@ -297,9 +296,7 @@
     margin-top: 26px;
     margin-left: 20px;
 }
-.border-section {
-    
-}
+
 .imges-part {
     margin-top: 40px;
     margin-left: 20px;
