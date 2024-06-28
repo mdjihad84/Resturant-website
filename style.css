@@ -86,7 +86,7 @@
     width: 25px;
     height: 25px;
 }
-                                /* section part */
+                                /* product image part 1 */
 .main-content {
     padding: 3% 150px;
     display: flex;
@@ -144,6 +144,7 @@
     border: 0;
     margin-top: 30px;
 }
+                                /* product image part 2 */
 .main-section {
     display: flex;
     /* position: relative; */
@@ -181,7 +182,7 @@
     color: #35b8be;
     margin-top: 100px;
 }
-                            /* texting part */
+                            /* text part */
 .printing-div {
     display: flex;
     justify-content: space-around;
@@ -269,6 +270,10 @@
     border: #fff;
 }
                                     /* Order part */
+#background-section {
+    background-image: url(./images/background.svg);
+}
+
 .button-part {
     margin-bottom: 40px;
     margin-top: -50px;
@@ -324,9 +329,6 @@
     display: flex;
     background-color: ;
 }
-#background-section {
-    background-image: url(./images/background.svg);
-}
 .type-menu {
     width: 120px;
     height: 50px;
@@ -336,11 +338,10 @@
     border: #fff;
     text-align: center;
 }
+                                    /* main part */
 .full-menu{
     text-align: center;
     margin-top: 50px;
-    
-    
 }
 .type-menu a {
     text-decoration: none;
@@ -350,8 +351,7 @@
 .phone-pic {
     width: 500px;
     height: 500px;
-    margin-left: 100px;
-    
+    margin-left: 100px;   
 }
 .naving {
     margin-top: 30px;
@@ -361,7 +361,6 @@
     line-height: 1;
     font-weight: 700;
     letter-spacing: -0.03em;
-    
 }
 .lorem-nav {
     margin-bottom: 30px;
@@ -378,13 +377,11 @@
 .FAQ-section {
     display: flex;
     gap: 50px;
-    
 }
 
 .margin-div {
     margin-left: 150px;
 }
-
 .since {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -401,6 +398,7 @@
     line-height: 1.5;
     letter-spacing: -0.02em;
 }
+                                    /* footer part */
 .flex-section {
     display: flex;
     margin-top: 100px;
