@@ -1,8 +1,8 @@
+                                   /*body part */
 @font-face {
     font-family: 'inter';
     src: url(../fonts/inter.ttf);
 }
-
 * {
   margin: 0px;
   padding: 0px;
@@ -12,10 +12,9 @@
   color: #333;
   font-size: 15px;
   line-height: 20px;
+  
 }
-
-                    /* banner section */
-
+                                /* banner section */
 .banner {
     padding: 5px 3%;
     background-color: #35b8be;
@@ -40,8 +39,8 @@
     text-decoration: none;
 }
 
-                /* navbar section */
-
+                
+                            /* Navigation part*/
 .navbar-content {
     padding: 20px 3%;
     display: flex;
@@ -87,6 +86,7 @@
     width: 25px;
     height: 25px;
 }
+                                /* section part */
 .main-content {
     padding: 3% 150px;
     display: flex;
@@ -181,6 +181,7 @@
     color: #35b8be;
     margin-top: 100px;
 }
+                            /* texting part */
 .printing-div {
     display: flex;
     justify-content: space-around;
@@ -234,7 +235,7 @@
 
 .button-part{
     text-align: center;
-    gap: 20px;
+    gap: 50px;
     margin-top: 50px;
 }
 .type-button {
@@ -267,6 +268,7 @@
     color: #fff;
     border: #fff;
 }
+                                    /* Order part */
 .button-part {
     margin-bottom: 40px;
     margin-top: -50px;
@@ -325,10 +327,123 @@
 #background-section {
     background-image: url(./images/background.svg);
 }
+.type-menu {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #35b8be;
+    color: #fff;
+    border: #fff;
+    text-align: center;
+}
+.full-menu{
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.type-menu a {
+    text-decoration: none;
+    width: 90px;
+    color: #fff;
+}
+.phone-pic {
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    
+}
+.naving {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #35b8be;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    
+}
+.lorem-nav {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #546285;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+.sides-section {
+    display: flex;
+    margin-top: 200px;
+}
+.FAQ-section {
+    display: flex;
+    gap: 50px;
+    
+}
 
+.margin-div {
+    margin-left: 150px;
+}
 
-
-
+.since {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #35b8be;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+.lorem-since {
+    margin-bottom: 10px;
+    color: #546285;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+.flex-section {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+    gap
+}
+.style-heading {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+.checkout {
+    background-color: #35b8be;
+    margin-left: 60px;
+    width: 50%;
+}
+.pickup {
+    width: 50%;
+    margin-left: 40px;   
+}
+.order-button {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #35b8be;
+    border: #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.order-button a {
+    text-decoration: none;
+}
+span {
+    color: #333;
+    font-size: 55px;
+}
 
 
 
