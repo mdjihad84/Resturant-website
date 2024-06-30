@@ -509,7 +509,7 @@
     text-decoration: none;
 }
 span {
-    color: #333;
+    color:  rgba(0, 0, 0, 0.225);
     font-size: 55px;
 }
 
