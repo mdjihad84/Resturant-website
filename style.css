@@ -95,6 +95,7 @@
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 100% 0%;
+    margin-bottom: 200px;
 }
 .hero-content__left-side {
     /* padding: 20px 3%; */
@@ -159,7 +160,7 @@
     padding: 20px 6%;
     background-color: transparent;
     background-position: 50% 50%;
-    background-image: url(https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3b4c076b5ee_BG%20Shape%20Content.svg);
+    background-image: url(./images/backgroun\ 2.svg);
     background-repeat: no-repeat;
     gap: 80px;
     margin-left: 30px;
@@ -303,6 +304,7 @@
     margin-right: 8px;
     margin-bottom: 0px;
     border-radius: 6px;
+    text-align: center;
 }
 .submit {
     width: 120px;
@@ -315,6 +317,7 @@
                                     /* Order part */
 #background-section {
     background-image: url(./images/background.svg);
+    background-repeat: no-repeat;
 }
 
 .button-part {
@@ -393,7 +396,7 @@
     color: #fff;
     border: #fff;
     text-align: center;
-}                                           /* main part */
+}                                           /* logo images parts */
 .full-menu{
     text-align: center;
     margin-top: 50px;
@@ -439,7 +442,9 @@
     gap: 50px;
     margin-top: 150px;
     margin-bottom: 100px;
-    background-image: url();
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url(https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3b4c076b5ee_BG%20Shape%20Content.svg)
 }
 .margin-div {
     margin-left: 150px;
