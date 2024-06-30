@@ -238,7 +238,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    background-image: url(	'https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa308a576b613_YumYum.png');
+    /* background-image: url(	'https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa308a576b613_YumYum.png'); */
 }
 .heading-section {
     margin-top: 10px;
