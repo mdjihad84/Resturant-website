@@ -218,7 +218,7 @@
     font-weight: 700;
     letter-spacing: -0.03em;
 }
-                                     /* text part */
+                                     /* menu parts */
 .printing-div {
     display: flex;
     justify-content: space-around;
@@ -316,7 +316,7 @@
     color: #fff;
     border: #fff;
 }
-                                    /* Order part */
+                                    /* works parts */
 #background-section {
     background-image: url(./images/background.svg);
     background-repeat: no-repeat;
@@ -398,7 +398,7 @@
     color: #fff;
     border: #fff;
     text-align: center;
-}                                           /* logo images parts */
+}                                        /* logo images parts */
 .full-menu{
     text-align: center;
     margin-top: 50px;
@@ -512,13 +512,6 @@ span {
     color:  rgba(0, 0, 0, 0.225);
     font-size: 55px;
 }
-
-
-
-
-
-
-
 
 
 

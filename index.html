@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>crating restaurant website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Grill & Chill</title>
+    <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 </head>
 <body>
                                 <!-- banner part -->
-    <header class="banner">
+    <div class="banner">
         <h3 class="banner-content">
             We're open and available for takeaway & delivery
             <a href="" class="link-text"> Order Now</a>
         </h3>
-    </header>
+    </div>
                                 <!-- Navigation part -->
-    <div class="navigation-container">
+    <header class="navigation-container">
         <img src="./images/logo.svg" width="40" alt="logo">
         <div class="navigation-right">
             <a href="https://chomp.webflow.io/">Home</a>
@@ -34,23 +34,28 @@
                 <span class="btn-count">0</span>
             </button>  
         </div>
-    </div>
+    </header>
+    <main>
                                 <!-- hero-content -->
-    <section class="hero-content">
-        <div class="hero-content__left-side">
-            <h2 class="hero-content__title">Beautiful food &<br> takeaway,<span class="span">delivered</span><br> to your door.</h2>
-            <p class="hero-content__description">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry. Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500.</p>
-            <button class="hero-content__btn">Place an order</button>
-            <div>
-                <img src="./images/trust-pilot.svg" alt="trust-pilot">
-                <p class="hero-content__rating"><span class="span-color">4.8 out of 5</span> based on 2000+ reviews</p>
+        <section class="hero-content">
+            <div class="hero-content__left-side">
+                <div>
+                    <h2 class="hero-content__title">Beautiful food &<br> takeaway,<span class="span">delivered</span><br> to your door.</h2>
+                    <p class="hero-content__description">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry. Lorem Ipsum has been the industry's standard dummy text<br> ever since the 1500.</p>
+                    <button class="hero-content__btn">Place an order</button>
+                </div>
+                <div>
+                    <img src="./images/trust-pilot.svg" alt="trust-pilot">
+                    <p class="hero-content__rating"><span class="span-color">4.8 out of 5</span> based on 2000+ reviews</p>
+                </div>
             </div>
-        </div>
-        <div>
-            <img src="./images/restaurente.png" alt="restaurant">
-        </div>
-    </section>
-                                    <!--main section -->
+            <div>
+                <img src="./images/restaurente.png" alt="restaurant">
+            </div>
+        </section>
+    </main>
+    
+                                <!--main section -->
     <section class="main-section">
         <div class="small-child">
             <h2 class="main-section__title">The home of<br>fresh products</h2>
@@ -63,149 +68,145 @@
             <img src="https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3ccac76b5c6_Group%2033.png" alt="picture">
         </div>
     </section>
-    <div>
-        <h2 class="heading-works">How it works.</h2>
-    </div>
-    <div class="texting-div">
+                            <!-- works secton -->
+    <section>
         <div>
-            <img src="https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3dc2276b60f_Step%2001.png" alt="restaurant-picture">
+            <h2 class="heading-works">How it works.</h2>
         </div>
-        <div>
-            <img src="https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3e5bf76b60e_Step%2002.png" alt="restaurant-picture">
+        <div class="texting-div">
+            <div>
+                <img src="https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3dc2276b60f_Step%2001.png" alt="restaurant-picture">
+            </div>
+            <div>
+                <img src="https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3e5bf76b60e_Step%2002.png" alt="restaurant-picture">
+            </div>
+            <div>
+                <img src="https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3001a76b610_Step%2003.png" alt="restaurant-picture">
+            </div>
         </div>
-        <div>
-            <img src="https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3001a76b610_Step%2003.png" alt="restaurant-picture">
+        <div class="printing-div">
+            <div>
+                <h3 class="heading-section">Adapt your menu items</h3>
+                <p class="lorem-section">
+                    Easily adapt your menu using the<br> webflow CMS and allow customers to<br> browse your items.
+                </p>
+            </div>
+            <div>
+                <h3 class="heading-section">Accept online orders & takeout</h3>
+                <p class="lorem-section">Let your customers order and pay via<br> the powerful ecommerce system, or<br> simple let them call your store.</p>
+            </div>
+            <div>
+                <h3 class="heading-section">Manage delivery or takeour</h3>
+                <p class="lorem-section">Manage your own logistics and take<br> orders simply through the ecommerce<br> system.</p>
+            </div>
         </div>
-    </div>
-                                    <!-- text part -->
-    <section class="printing-div">
-        <div>
-            <h3 class="heading-section">Adapt your menu items</h3>
-            <p class="lorem-section">
-                Easily adapt your menu using the<br> webflow CMS and allow customers to<br> browse your items.
-            </p>
-        </div>
-        <div>
-            <h3 class="heading-section">Accept online orders & takeout</h3>
-            <p class="lorem-section">
-                Let your customers order and pay via<br> the powerful ecommerce system, or<br> simple let them call your store.
-            </p>
-        </div>
-        <div>
-            <h3 class="heading-section">Manage delivery or takeour</h3>
-            <p class="lorem-section">
-                Manage your own logistics and take<br> orders simply through the ecommerce<br> system.
-            </p>
-        </div>
-        </section>
-        <section>
-            <h2 class="nav-header">Browse our menu</h2>
-            <p class="paragraph-part">
-                Use our menu to place an order online, or <a href="#" class="tags">phone</a> our store to<br>place a pickup order. Fast and fresh food.
-            </p>
-        </section>
-                                        <!-- order part -->
-        <section id="background-section">
+    </section>
+                                    <!-- menu parts -->
+    <section>
+        <h2 class="nav-header">Browse our menu</h2>
+        <p class="paragraph-part">Use our menu to place an order online, or <a href="#" class="tags">phone</a> our store to<br>place a pickup order. Fast and fresh food.</p>
+        <div id="background-section">                
             <div class="button-part">
                 <button class="hero-content__btn">burgers</button>
                 <button class="order-part__btn">sides</button>
                 <button class="order-part__btn">drink</button>
             </div>
-            <div id="parent-section">
-                <div class="child-section">
-                    <div class="shortcut">
-                        <div class="imges-part">
-                            <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3676276b5cd_Burger%2003.png" alt="pic" class="burger">
+                <div id="parent-section">
+                    <div class="child-section">
+                        <div class="shortcut">
+                            <div class="imges-part">
+                                <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3676276b5cd_Burger%2003.png" alt="pic" class="burger">
+                            </div>
+                            <div class="dremes-section">
+                                <h4 class="heading-text">Buger dremes</h4>
+                                <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
+                                <input type="number" class="input">
+                                <input type="submit" class="submit">
+                            </div>
+                            <div class="number-section">
+                                <p>$ 9.20 USD</p>
+                            </div>
                         </div>
-                        <div class="dremes-section">
-                            <h4 class="heading-text">Buger dremes</h4>
-                            <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
-                            <input type="number" class="input">
-                            <input type="submit" class="submit">
+                        <div class="shortcut">
+                            <div class="imges-part">
+                                <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa36d8576b5b4_Burger%2004.png" alt="pic" class="burger">
+                            </div>
+                            <div class="dremes-section">
+                                <h4 class="heading-text">Buger cali</h4>                     
+                                <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <input type="number" class="input">
+                                <input type="submit" class="submit">
+                            </div>
+                            <div class="number-section">
+                                <p>$ 8.00 USD</p>
+                            </div>
                         </div>
-                        <div class="number-section">
-                            <p>$ 9.20 USD</p>
-                        </div>
-                    </div>
-                    <div class="shortcut">
-                        <div class="imges-part">
-                            <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa36d8576b5b4_Burger%2004.png" alt="pic" class="burger">
-                        </div>
-                        <div class="dremes-section">
-                            <h4 class="heading-text">Buger cali</h4>                     
-                            <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <input type="number" class="input">
-                            <input type="submit" class="submit">
-                        </div>
-                        <div class="number-section">
-                            <p>$ 8.00 USD</p>
-                        </div>
-                    </div>
-                    <div class="shortcut">
-                        <div class="imges-part">
-                            <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa33f0276b5b2_Burger%2002.png" alt="pic" class="burger">
-                        </div>
-                        <div class="dremes-section">
-                            <h4 class="heading-text">Buger spicy</h4>
-                            <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
-                            <input type="number" class="input">
-                            <input type="submit" class="submit">
-                        </div>
-                        <div class="number-section">
-                            <p>$ 9.20 USD</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="child-section__right">                 
-                    <div class="shortcut">
-                        <div class="imges-part">
-                            <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3b2e676b5b5_Burger%2008.png" alt="pic" class="burger"> 
-                        </div>
-                        <div class="dremes-section">
-                            <h4 class="heading-text">Burger waldo</h4>
-                            <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
-                            <input type="number" class="input">
-                            <input type="submit" class="submit">
-                        </div>
-                        <div class="number-section">
-                            <p>$ 10.00 USD</p>
-                        </div>                       
-                    </div>
-                    <div class="shortcut">
-                        <div class="imges-part">
-                            <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3650476b5b3_Burger%2006.png" alt="pic" class="burger">
-                        </div>
-                        <div class="dremes-section">
-                            <h4 class="heading-text">Buger Baocon Baddy</h4>
-                            <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
-                            <input type="number" class="input">
-                            <input type="submit" class="submit">
-                        </div>
-                        <div class="number-section">
-                            <p>$ 9.99 USD</p>
+                        <div class="shortcut">
+                            <div class="imges-part">
+                                <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa33f0276b5b2_Burger%2002.png" alt="pic" class="burger">
+                            </div>
+                            <div class="dremes-section">
+                                <h4 class="heading-text">Buger spicy</h4>
+                                <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
+                                <input type="number" class="input">
+                                <input type="submit" class="submit">
+                            </div>
+                            <div class="number-section">
+                                <p>$ 9.20 USD</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="shortcut">
-                        <div class="imges-part">
-                            <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa343f176b5b1_Burger%2001.png" alt="pic" class="burger">
+                    <div class="child-section__right">                 
+                        <div class="shortcut">
+                            <div class="imges-part">
+                                <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3b2e676b5b5_Burger%2008.png" alt="pic" class="burger"> 
+                            </div>
+                            <div class="dremes-section">
+                                <h4 class="heading-text">Burger waldo</h4>
+                                <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
+                                <input type="number" class="input">
+                                <input type="submit" class="submit">
+                            </div>
+                            <div class="number-section">
+                                <p>$ 10.00 USD</p>
+                            </div>                       
                         </div>
-                        <div class="dremes-section">
-                            <h4 class="heading-text">Buger classic</h4>
-                            <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
-                            <input type="number" class="input">
-                            <input type="submit" class="submit">
+                        <div class="shortcut">
+                            <div class="imges-part">
+                                <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa3650476b5b3_Burger%2006.png" alt="pic" class="burger">
+                            </div>
+                            <div class="dremes-section">
+                                <h4 class="heading-text">Buger Baocon Baddy</h4>
+                                <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
+                                <input type="number" class="input">
+                                <input type="submit" class="submit">
+                            </div>
+                            <div class="number-section">
+                                <p>$ 9.99 USD</p>
+                            </div>
                         </div>
-                        <div class="number-section">
-                            <p>$ 8.00 USD</p>
+                        <div class="shortcut">
+                            <div class="imges-part">
+                                <img src="https://assets.website-files.com/5e865e09d8efa3d64d76b59d/5e865e09d8efa343f176b5b1_Burger%2001.png" alt="pic" class="burger">
+                            </div>
+                            <div class="dremes-section">
+                                <h4 class="heading-text">Buger classic</h4>
+                                <p class="writing-part">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
+                                <input type="number" class="input">
+                                <input type="submit" class="submit">
+                            </div>
+                            <div class="number-section">
+                                <p>$ 8.00 USD</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="full-menu">
+                <button class="hero-content__btn">See full menu</button>
+            </div>
         </section>
-                                    <!-- logo images parts -->
-        <div class="full-menu">
-            <button class="hero-content__btn">See full menu</button>
-        </div>
+                                <!-- logo images parts -->
         <section class="sides-section">
             <div>
                 <img src="./images/phone.png" alt="phone-pic" class="phone-pic">
@@ -226,7 +227,7 @@
                 <img src="https://assets.website-files.com/5e865e09d8efa3310676b585/5eb0bcb8036072a55de52baf_Food%20Takeaway.png" alt="restaurant">
             </div>
         </section>
-                                        <!-- footer part -->
+                                <!-- footer part -->
         <footer class="flex-section">
             <div class="pickup">
                 <img src="https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3710276b5d2_Group%20Photo.png" alt="phone">
@@ -238,3 +239,4 @@
         </footer>
 </body>
 </html>
+ 
