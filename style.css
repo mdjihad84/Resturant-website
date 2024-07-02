@@ -3,7 +3,6 @@
     font-family: 'inter';
     src: url(../fonts/inter.ttf);
 }
-
 * {
   margin: 0px;
   padding: 0px;
@@ -13,9 +12,7 @@
   color: #333;
   font-size: 15px;
   line-height: 20px;
-  
-}
-                                /* banner section */
+}                             /* banner section */
 .banner {
     padding: 5px 3%;
     background-color: #35b8be;
@@ -26,34 +23,29 @@
     align-items: center;
     justify-content: center;
 }
-
 .banner-content {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
     color: white;
 }
-
 .link-text {
     font-weight: 600;
     color: white;
     text-decoration: none;
-}
-                            /* Navigation part*/
+}                            /* Navigation part*/
 .navigation-container {
     padding: 20px 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .navigation-right a {
     padding-left: 16px;
     padding-right: 16px;
     font-size: 16px;
     text-decoration: none;
 }
-
 .navigation-right button {
     padding: 13px;
     height: 55px;
@@ -64,11 +56,9 @@
     border-radius: 4px;
     background-repeat: no-repeat;
 }
-
 .btn-content {
     position: relative;
 }
-
 .btn-count {
     position: absolute;
     top: -6px;
@@ -84,8 +74,7 @@
     border-radius: 100px;
     width: 25px;
     height: 25px;
-}
-                                /* hero content*/
+}                             /* hero content*/
 .hero-content {
     padding: 20px 10%;
     display: flex;
@@ -118,6 +107,18 @@
     line-height: 1.34;
     font-weight: 400;
 }
+.hero-content__btn-main {
+    min-height: 60px;
+    padding: 20px 45px;
+    border-radius: 6px;
+    background-color: #35b8be;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: #fff;
+    background-image: url(./images/btn-image.svg);
+    color: #fff;
+    font-size: 18px;
+}
 .hero-content__btn {
     min-height: 60px;
     padding: 20px 45px;
@@ -146,15 +147,13 @@
     font-size: 16px;
     margin-top: 10px;
 } 
-
 .pic {
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
     border: 0;
     margin-top: 30px;
-}
-                                /* main section*/
+}                           /* main section*/
 .main-section {
     display: flex;
     padding: 20px 6%;
@@ -179,7 +178,6 @@
     line-height: 1;
     font-weight: 700;
     letter-spacing: -0.03em;
-    /* text-align: center; */
 }
 .nav-header {
     text-align: center;
@@ -188,12 +186,11 @@
     margin-top: 100px;
 }
 .main-section-paragraph {
-    margin-bottom: 100px;
+    /* margin-bottom: 80px; */
     color: #546285;
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: -0.02em;
-    margin-top: 40px;
 }
 .clik-button {
     margin-top: -20px;
@@ -217,8 +214,7 @@
     line-height: 1;
     font-weight: 700;
     letter-spacing: -0.03em;
-}
-                                     /* menu parts */
+}                                  /* menu section */
 .printing-div {
     display: flex;
     justify-content: space-around;
@@ -293,7 +289,6 @@
     padding: 15px;
     padding-left: 45px;
     padding-right: 45px;
-    
 }
 .burger {
     width: 100px;
@@ -315,13 +310,11 @@
     background-color: #35b8be;
     color: #fff;
     border: #fff;
-}
-                                    /* works parts */
+}                                  /* works parts */
 #background-section {
     background-image: url(./images/background.svg);
     background-repeat: no-repeat;
 }
-
 .button-part {
     margin-bottom: 40px;
     margin-top: -50px;   
@@ -334,7 +327,6 @@
     margin-bottom: 30px;
     border: none;
     color: black;
-    
 }
 .button-part button a {
     text-decoration: none;
@@ -398,7 +390,7 @@
     color: #fff;
     border: #fff;
     text-align: center;
-}                                        /* logo images parts */
+}                                   /* logo images parts */
 .full-menu{
     text-align: center;
     margin-top: 50px;
