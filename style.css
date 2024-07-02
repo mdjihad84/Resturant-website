@@ -336,13 +336,15 @@
 .shortcut {
     display: flex;
     margin-left: 100px;
-    border: 1px solid;
     width: 650px;
     height: 210px;
     border-radius: 7px;
     background-color: #fff;
-    border: #fff;
-    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(53, 184, 190, 0.15);
+    transition: border-color 300ms ease;
+    margin-bottom: 30px;
     margin-right: -80px;   
 }
 .dremes-section {
