@@ -210,19 +210,6 @@
     display: flex;
     gap: -20px;
 }
-.clik-button {
-    margin-top: -20px;
-    min-height: 60px;
-    padding: 20px 35px;
-    border-radius: 6px;
-    background-color: #35b8be;
-    margin-top: -40px;
-    border: #fff;
-}
-.clik-button a {
-    text-decoration: none;
-    color: #fff;
-}   
                         /*work container */
 .work-container-menu {
     display: flex;
@@ -237,15 +224,6 @@
     margin-top: 20px;
     margin-bottom: 20px;
     color: #35b8be;
-}
-.paragraph-part {
-    text-align: center;
-    margin-bottom: 100px;
-    color: #546285;
-    font-size: 18px;
-    line-height: 1.5;
-    letter-spacing: -0.02em;
-    margin-top: 40px;
 }
 .texting-div {
     display: flex;
@@ -289,16 +267,22 @@
 }
 .food-content-description {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #546285;
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: -0.02em;
 }
+.content-title{
+    margin-bottom: -15px;
+}
 .food-content-link {
     color: #35b8be;
     font-size: 18px;
     text-decoration: none;
+}
+.food-content-bottom {
+    text-align: center;
 }
 .food-btn {
     min-height: 60px;
@@ -311,27 +295,9 @@
     background-image: url(./images/btn-image.svg);
     color: #fff;
     font-size: 18px;
-}
-.button-part{
     text-align: center;
-    gap: 50px;
-    margin-top: 50px;
 }
-.type-button {
-    border-color: rgba(97, 114, 131, 0);
-    border-radius: 6px;
-    background-color: #35b8be;
-    color: #fff;
-    padding: 15px;
-    padding-left: 45px;
-    padding-right: 45px;
-}
-.burger {
-    width: 100px;
-    height: 100px;
-    border-radius: 6px;
-}
-.input {
+.food-submit {
     width: 60px;
     height: 45px;
     margin-right: 8px;
@@ -339,7 +305,7 @@
     border-radius: 6px;
     text-align: center;
 }
-.submit {
+.food-input {
     width: 120px;
     height: 50px;
     border-radius: 5px;
@@ -387,15 +353,20 @@
     border-color: rgba(53, 184, 190, 0.15);
     transition: border-color 300ms ease;
     margin-bottom: 30px;
-    margin-right: -80px;   
+    margin-right: -80px; 
 }
-.dremes-section {
+.food-title {
     margin-top: 26px;
     margin-left: 20px;
 }
-.imges-part {
+.food-image {
     margin-top: 40px;
     margin-left: 20px;
+}
+.food-burger {
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
 }
 .food-content-title {
     font-size: 55px;
@@ -421,16 +392,18 @@
     margin-top: 35px;
     margin-left: -100px;
 }
-#food-content-bg {
-    
-}
 .food-content-left{
     margin-left: 20px;
 }
 .food-content-right {
     margin-right: -20px;
 }
-.type-menu {
+                        /* Order content */
+.Order-content {
+    display: flex;
+    margin-top: 200px;
+}
+.Order-content-btn {
     width: 120px;
     height: 50px;
     border-radius: 5px;
@@ -438,27 +411,22 @@
     color: #fff;
     border: #fff;
     text-align: center;
-}                                   /* logo images parts */
-.full-menu{
-    text-align: center;
-    margin-top: 50px;
+} 
+.Order-content-left {
+    width: 600px;
+    height: 600px;
+    margin-left: 100px;
 }
-.type-menu a {
+.Order-content-right{
+    margin-top: 100px;
+}
+.Order-content-btn a {
     text-decoration: none;
     width: 90px;
     color: #fff;
     
 }
-.phone-pic {
-    width: 600px;
-    height: 600px;
-    margin-left: 100px;
-}
-.SAQ-text {
-    margin-top: 150px;
-    margin-left: 50px;
-}
-.naving {
+.Order-content-title {
     margin-top: 30px;
     margin-bottom: 20px;
     color: #35b8be;
@@ -467,7 +435,7 @@
     font-weight: 700;
     letter-spacing: -0.03em;
 }
-.lorem-nav {
+.Order-content-description {
     margin-bottom: 30px;
     margin-top: 20px;
     color: #546285;
@@ -475,11 +443,8 @@
     line-height: 1.5;
     letter-spacing: -0.02em;
 }
-.sides-section {
-    display: flex;
-    margin-top: 200px;
-}
-.FAQ-section {
+                        /* store content */
+.store-content {
     display: flex;
     gap: 50px;
     margin-top: 150px;
@@ -488,11 +453,11 @@
     margin-left: 40px;
     background-image: url(https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa3b4c076b5ee_BG%20Shape%20Content.svg)
 }
-.margin-div {
+.store-content-left {
     margin-left: 150px;
     margin-top:100px;
 }
-.since {
+.store-content-title {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #35b8be;
@@ -501,12 +466,25 @@
     font-weight: 700;
     letter-spacing: -0.03em;
 }
-.lorem-since {
+.store-content-description {
     margin-bottom: 10px;
     color: #546285;
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: -0.02em;
+}
+.store-btn {
+    min-height: 60px;
+    padding: 20px 45px;
+    border-radius: 6px;
+    background-color: #35b8be;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    border: #fff;
+    background-image: url(./images/btn-image.svg);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
 }
                                     /* footer part */
 .footer-content {
