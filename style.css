@@ -557,6 +557,9 @@ span {
         margin-top: 20px;
         margin-bottom: 14px;
         margin-left: 20px;
+        padding: 15px 25px;
+        font-size: 13px;
+        min-height: 50px;
     }
 
     .hero-content-title {
@@ -596,10 +599,13 @@ span {
         font-size: 17px;
         margin-top: 10px;
     }
-
     .product-container-btn {
         margin-top: 30px;
+        padding: 15px 25px;
+        font-size: 13px;
+        min-height: 50px;
     }
+
     /* works section */
     .work-container-title {
         font-size: 40px;
@@ -714,7 +720,7 @@ span {
         margin-left: -35px;
     }
     .store-content-left {
-        margin-left: 65px;
+        margin-left: 20px;
         margin-top: 10px;
     }
     .store-content-title {
@@ -725,15 +731,15 @@ span {
         font-size: 12px;
     }
     .store-btn {
-        padding: 20px 34px;
-        font-size: 14px;
+        padding: 15px 25px;
+        font-size: 13px;
         margin-top: 20px;
+        min-height: 50px;
     }
     /* footer section */
     .footer-contain {
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
     }
     .footer-content-left img {
 
