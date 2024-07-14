@@ -549,10 +549,12 @@ span {
         flex-direction: column-reverse;
         margin-bottom: 10px;
     }
+
     .hero-content-right-side img {
         width: 350px;
         margin-left: 40px;
     }
+
     .hero-content-btn {
         margin-top: 20px;
         margin-bottom: 14px;
@@ -567,10 +569,12 @@ span {
         margin-top: 20px;
         margin-left: 15px;
     }
+
     .hero-content-description {
         margin-left: 18px;
         font-size: 11px;
     }
+
     .trust-pilot {
         margin-left: 18px;
     }
@@ -582,31 +586,36 @@ span {
     .hero-content-span {
         font-size: 40px;
     }
+
     .product-contain {
         display: flex;
         flex-direction: column-reverse;
         padding: 50px;
     }
+
     .product-img {
         width: 350px;
         margin-right: 37px;
     }
+
     .product-container-title {
         font-size: 38px;
         margin-top: 10px;
     }
+
     .product-container-description {
         font-size: 17px;
         margin-top: 10px;
     }
+
     .product-container-btn {
         margin-top: 30px;
         padding: 15px 25px;
         font-size: 13px;
         min-height: 50px;
     }
-
     /* works section */
+
     .work-container-title {
         font-size: 40px;
         margin-top: -200px;
@@ -621,23 +630,28 @@ span {
     .menu-card-description {
         margin-bottom: 50px;
     }
+
     .work-img {
         width: 310px;
         margin-left: 37px;
     }
     /* food content */
+
     .food-content-title {
         font-size: 40px;
     }
+
     .food-content-title-description {
         font-size: 14px;
         margin-top: 20px;
     }
+
     .food-btn {
         padding: 16px 23px;
         min-height: 50px;
         font-size: 15px;
     }
+
     .food-content-cart {
         width: 396px;
         height: 235px;
@@ -647,6 +661,7 @@ span {
     .food-content-left {
         margin-left: 2px;
     }
+
     .food-burger {
         width: 134px;
         height: 157px;
@@ -655,6 +670,7 @@ span {
     .food-title {
         margin-top: 37px;
     }
+
     .content-title {
         font-size: 16px;
     }
@@ -679,61 +695,74 @@ span {
         flex-direction: column;
     }
     /* order section */
+    
     .order-content {
         display: flex;
         flex-direction: column;
     }
+
     .checkout-img {
         width: 350px;
         height: 350px;
     }
+
     .checkout-title {
         font-size: 40px;
     }
+
     .checkout-description {
         font-size: 13px;
     }
+
     .order-content-left {
         width: 350px;
         height: 350px;
         margin-top: -190px;
         margin-left: 65px;
     }
+
     .order-content-title {
         font-size: 36px;
         margin-top: -50px;
         margin-left: 55px;
-    }        
+    } 
+
     .order-content-description {
         font-size: 12px;
         margin-left: 55px;
     }
+
     .order-content-btn {
         margin-left: 55px;
     }
     /* store section */
+
     .store-content {
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: -75px;
     }
+
     .store-content-right img {
         width: 350px;
         height: 350px;
         margin-top: -45px;
         margin-left: -35px;
     }
+
     .store-content-left {
         margin-left: 20px;
         margin-top: 10px;
     }
+
     .store-content-title {
         font-size: 34px;
-
     }
+
     .store-content-description {
         font-size: 10px;
     }
+
     .store-btn {
         padding: 15px 25px;
         font-size: 13px;
@@ -741,29 +770,32 @@ span {
         min-height: 50px;
     }
     /* footer section */
+    
     .footer-contain {
         display: flex;
-        flex-direction: column-reverse;
-        margin-bottom: 100px;
+        flex-direction: column;
+        margin-bottom: 50px;
     }
+
     .footer-images{
         margin-left: -29px;
-        margin-right: 20px;
+        width: 392px;
     }
 
     .footer-content-right {
         background-color: #35b8be;
         margin-left: 10px;
-        width: 95%;
-        margin-right: 40px;
+        width: 392px;
         margin-bottom: 10px;
     }
+
     .footer-content-title {
         margin-top: 120px;
         margin-bottom: 20px;
         margin-left: 20px;
         font-size: 30px;
     }
+
     .footer-content-btn {
         margin-left: 30px;
         margin-bottom: 30px;
