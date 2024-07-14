@@ -644,6 +644,9 @@ span {
         margin-left: 10px;
     }
 
+    .food-content-left {
+        margin-left: 2px;
+    }
     .food-burger {
         width: 134px;
         height: 157px;
@@ -699,19 +702,20 @@ span {
     .order-content-title {
         font-size: 36px;
         margin-top: -50px;
-        margin-left: 65px;
+        margin-left: 55px;
     }        
     .order-content-description {
         font-size: 12px;
-        margin-left: 65px;
+        margin-left: 55px;
     }
     .order-content-btn {
-        margin-left: 65px;
+        margin-left: 55px;
     }
     /* store section */
     .store-content {
         display: flex;
         flex-direction: column-reverse;
+        margin-bottom: -75px;
     }
     .store-content-right img {
         width: 350px;
@@ -728,7 +732,7 @@ span {
 
     }
     .store-content-description {
-        font-size: 12px;
+        font-size: 10px;
     }
     .store-btn {
         padding: 15px 25px;
@@ -740,10 +744,13 @@ span {
     .footer-contain {
         display: flex;
         flex-direction: column-reverse;
+        margin-bottom: 100px;
     }
-    .footer-content-left img {
+    .footer-images{
+        margin-left: -29px;
+        margin-right: 20px;
+    }
 
-    }
     .footer-content-right {
         background-color: #35b8be;
         margin-left: 10px;
